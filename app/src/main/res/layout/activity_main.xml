@@ -17,18 +17,18 @@
 
     <TextView
         android:id="@+id/opacityph"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="513dp"
+        android:layout_height="775dp"
         android:alpha="0.4"
         android:background="@color/black"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+        tools:layout_editor_absoluteX="-102dp"
+        tools:layout_editor_absoluteY="-44dp" />
 
     <TextView
         android:id="@+id/welcome"
-        android:layout_width="match_parent"
-        android:layout_height="90dp"
-        android:fontFamily="@font/kanitblack"
+        android:layout_width="425dp"
+        android:layout_height="183dp"
+        android:fontFamily="@font/pattayareg"
         android:gravity="center"
         android:text="Welcome"
         android:textColor="@color/white"
@@ -36,18 +36,17 @@
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.169" />
+        app:layout_constraintVertical_bias="0.166" />
 
     <Button
         android:id="@+id/startbtn"
         android:layout_width="174dp"
         android:layout_height="75dp"
-        android:fontFamily="@font/kanitbold"
-        android:text="Start"
         android:backgroundTint="#FE0000"
+        android:fontFamily="@font/pattayareg"
+        android:text="Start"
         android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

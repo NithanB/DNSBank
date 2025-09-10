@@ -7,9 +7,8 @@
     android:layout_height="match_parent"
     tools:context=".startMenu">
 
-
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textViewBackground"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/thailand"
@@ -17,7 +16,7 @@
         tools:layout_editor_absoluteY="63dp" />
 
     <TextView
-        android:id="@+id/opacityph"
+        android:id="@+id/textViewOpacityOverlay"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:alpha="0.4"
@@ -26,57 +25,55 @@
         tools:layout_editor_absoluteY="0dp" />
 
     <Button
-        android:id="@+id/startbtn5"
+        android:id="@+id/buttonNorthRegion"
         android:layout_width="247dp"
         android:layout_height="65dp"
         android:backgroundTint="#FE0000"
-        android:fontFamily="@font/kanitbold"
+        android:fontFamily="@font/pattayareg"
         android:text="ภาคเหนือ"
         android:textSize="25dp"
-        app:layout_constraintBottom_toTopOf="@+id/startbtn6"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSouthRegion"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/startbtn4" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonNortheastRegion" />
 
     <Button
-        android:id="@+id/startbtn4"
+        android:id="@+id/buttonNortheastRegion"
         android:layout_width="247dp"
         android:layout_height="65dp"
         android:backgroundTint="#FE0000"
-        android:fontFamily="@font/kanitbold"
+        android:fontFamily="@font/pattayareg"
         android:text="ภาคอีสาน"
         android:textSize="25dp"
-        app:layout_constraintBottom_toTopOf="@+id/startbtn5"
+        app:layout_constraintBottom_toTopOf="@+id/buttonNorthRegion"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/startbtn" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonCentralRegion" />
 
     <Button
-        android:id="@+id/startbtn6"
+        android:id="@+id/buttonSouthRegion"
         android:layout_width="247dp"
         android:layout_height="65dp"
         android:backgroundTint="#FE0000"
-        android:fontFamily="@font/kanitbold"
+        android:fontFamily="@font/pattayareg"
         android:text="ภาคใต้"
         android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/startbtn5" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonNorthRegion" />
 
     <Button
-        android:id="@+id/startbtn"
+        android:id="@+id/buttonCentralRegion"
         android:layout_width="247dp"
         android:layout_height="65dp"
         android:backgroundTint="#FE0000"
-        android:fontFamily="@font/kanitbold"
+        android:fontFamily="@font/pattayareg"
         android:text="ภาคกลาง"
         android:textSize="25dp"
-        app:layout_constraintBottom_toTopOf="@+id/startbtn4"
+        app:layout_constraintBottom_toTopOf="@+id/buttonNortheastRegion"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
 </androidx.constraintlayout.widget.ConstraintLayout>
-
