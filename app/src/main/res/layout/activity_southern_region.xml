@@ -22,8 +22,8 @@
         android:layout_height="match_parent"
         android:alpha="0.4"
         android:background="@color/black"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="76dp" />
+        tools:layout_editor_absoluteX="-202dp"
+        tools:layout_editor_absoluteY="0dp" />
 
     <TextView
         android:id="@+id/topicTextCentral"
@@ -34,7 +34,10 @@
         android:text="ภาคใต้"
         android:textColor="@color/white"
         android:textSize="50dp"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="45dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
